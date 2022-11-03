@@ -4,7 +4,6 @@ from functools import partial
 
 import aiohttp
 import torch
-
 from torchdata.datapipes.iter import Decompressor, FileLister, FileOpener
 
 # Batch_Size to kept 1 and letting torchserver to do batch inference
